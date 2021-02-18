@@ -1,10 +1,10 @@
-import express from "express";
-import bodyParser from "body-parser";
-import sql from "mssql";
-import cors from "cors";
-import apiRouter from "./routes";
+const express = require("express");
+const bodyParser = require("body-parser");
+const sql = require("mssql");
+const cors = require("cors");
+const apiRouter = require("./routes");
 
-const app = Express();
+const app = express();
 
 // Body Parser Middleware
 app.use(bodyParser.json());

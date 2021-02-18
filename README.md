@@ -7,6 +7,12 @@
 - Express
 - MySql
 
+### Optional
+
+- _[Postman](https://www.postman.com/)_
+- nodemon
+  `npm install nodemon`
+
 ### Setup
 
 Create a database with a table, columns, and records.
@@ -31,5 +37,3 @@ Install all dependencies:
 
 Install Mysql:
 `npm install mysql`
-
-
