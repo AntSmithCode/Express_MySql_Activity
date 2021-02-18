@@ -1,6 +1,6 @@
 # Express_MySql_Activity
 
--Practicing connecting Node.js to MySql
+Practicing connecting Node.js to MySql
 
 ## Tech Stack
 
