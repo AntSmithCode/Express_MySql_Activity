@@ -4,10 +4,9 @@ const connectionDb = mysql.createPool({
   //allows queries
   connectionLimit: 20,
   password: "secret",
-  user: "",
+  user: "root",
   database: "Pokemon_Data",
-  host: "",
-  port: "",
+  host: "localhost"
 });
 
 let pokeDb = {};
