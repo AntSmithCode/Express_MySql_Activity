@@ -2,18 +2,18 @@ const mysql = require("mysql");
 
 const connectionDb = mysql.createPool({
   //allows queries
-  connectionLimit: 20,
+  connectionLimit: 10,
   password: "secret",
   user: "root",
-  database: "Pokemon_Data",
-  host: "localhost"
+  database: "Pokedex",
+  host: "localhost",
 });
 
 let pokeDb = {};
 
 pokeDb.all = () => {
   return new Promise((resolve, reject) => {
-    connectionDb.query(`SELECT * FROM pokemon_card`, (err, results) => {
+    connectionDb.query(`SELECT * FROM Pokemon`, (err, results) => {
       if (err) {
         return reject(err); // Error Handling
       }
