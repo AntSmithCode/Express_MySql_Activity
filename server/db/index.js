@@ -3,7 +3,7 @@ const mysql = require("mysql");
 const connectionDb = mysql.createPool({
   //allows queries
   connectionLimit: 10,
-  password: "secret",
+  password: "Google24&",
   user: "root",
   database: "Pokedex",
   host: "localhost",
